@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5AE929A21AED4EE80044B39C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE929A11AED4EE80044B39C /* AppDelegate.swift */; };
+		5AE929A41AED4EE80044B39C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE929A31AED4EE80044B39C /* ViewController.swift */; };
+		5AE929A71AED4EE80044B39C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AE929A51AED4EE80044B39C /* Main.storyboard */; };
+		5AE929A91AED4EE80044B39C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AE929A81AED4EE80044B39C /* Images.xcassets */; };
+		5AE929AC1AED4EE80044B39C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5AE929AA1AED4EE80044B39C /* LaunchScreen.xib */; };
+		5AE929B81AED4EE80044B39C /* Alston_ClarkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE929B71AED4EE80044B39C /* Alston_ClarkTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5AE929B21AED4EE80044B39C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AE929941AED4EE80044B39C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AE9299B1AED4EE80044B39C;
+			remoteInfo = "Alston Clark";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5AE9299C1AED4EE80044B39C /* Alston Clark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Alston Clark.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AE929A01AED4EE80044B39C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AE929A11AED4EE80044B39C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5AE929A31AED4EE80044B39C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5AE929A61AED4EE80044B39C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5AE929A81AED4EE80044B39C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5AE929AB1AED4EE80044B39C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		5AE929B11AED4EE80044B39C /* Alston ClarkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Alston ClarkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AE929B61AED4EE80044B39C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AE929B71AED4EE80044B39C /* Alston_ClarkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alston_ClarkTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5AE929991AED4EE80044B39C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AE929AE1AED4EE80044B39C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5AE929931AED4EE80044B39C = {
+			isa = PBXGroup;
+			children = (
+				5AE9299E1AED4EE80044B39C /* Alston Clark */,
+				5AE929B41AED4EE80044B39C /* Alston ClarkTests */,
+				5AE9299D1AED4EE80044B39C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5AE9299D1AED4EE80044B39C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5AE9299C1AED4EE80044B39C /* Alston Clark.app */,
+				5AE929B11AED4EE80044B39C /* Alston ClarkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5AE9299E1AED4EE80044B39C /* Alston Clark */ = {
+			isa = PBXGroup;
+			children = (
+				5AE929A11AED4EE80044B39C /* AppDelegate.swift */,
+				5AE929A31AED4EE80044B39C /* ViewController.swift */,
+				5AE929A51AED4EE80044B39C /* Main.storyboard */,
+				5AE929A81AED4EE80044B39C /* Images.xcassets */,
+				5AE929AA1AED4EE80044B39C /* LaunchScreen.xib */,
+				5AE9299F1AED4EE80044B39C /* Supporting Files */,
+			);
+			path = "Alston Clark";
+			sourceTree = "<group>";
+		};
+		5AE9299F1AED4EE80044B39C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5AE929A01AED4EE80044B39C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5AE929B41AED4EE80044B39C /* Alston ClarkTests */ = {
+			isa = PBXGroup;
+			children = (
+				5AE929B71AED4EE80044B39C /* Alston_ClarkTests.swift */,
+				5AE929B51AED4EE80044B39C /* Supporting Files */,
+			);
+			path = "Alston ClarkTests";
+			sourceTree = "<group>";
+		};
+		5AE929B51AED4EE80044B39C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5AE929B61AED4EE80044B39C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5AE9299B1AED4EE80044B39C /* Alston Clark */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AE929BB1AED4EE80044B39C /* Build configuration list for PBXNativeTarget "Alston Clark" */;
+			buildPhases = (
+				5AE929981AED4EE80044B39C /* Sources */,
+				5AE929991AED4EE80044B39C /* Frameworks */,
+				5AE9299A1AED4EE80044B39C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Alston Clark";
+			productName = "Alston Clark";
+			productReference = 5AE9299C1AED4EE80044B39C /* Alston Clark.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5AE929B01AED4EE80044B39C /* Alston ClarkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AE929BE1AED4EE80044B39C /* Build configuration list for PBXNativeTarget "Alston ClarkTests" */;
+			buildPhases = (
+				5AE929AD1AED4EE80044B39C /* Sources */,
+				5AE929AE1AED4EE80044B39C /* Frameworks */,
+				5AE929AF1AED4EE80044B39C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5AE929B31AED4EE80044B39C /* PBXTargetDependency */,
+			);
+			name = "Alston ClarkTests";
+			productName = "Alston ClarkTests";
+			productReference = 5AE929B11AED4EE80044B39C /* Alston ClarkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5AE929941AED4EE80044B39C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Alston Clark";
+				TargetAttributes = {
+					5AE9299B1AED4EE80044B39C = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					5AE929B01AED4EE80044B39C = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 5AE9299B1AED4EE80044B39C;
+					};
+				};
+			};
+			buildConfigurationList = 5AE929971AED4EE80044B39C /* Build configuration list for PBXProject "Alston Clark" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5AE929931AED4EE80044B39C;
+			productRefGroup = 5AE9299D1AED4EE80044B39C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5AE9299B1AED4EE80044B39C /* Alston Clark */,
+				5AE929B01AED4EE80044B39C /* Alston ClarkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5AE9299A1AED4EE80044B39C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AE929A71AED4EE80044B39C /* Main.storyboard in Resources */,
+				5AE929AC1AED4EE80044B39C /* LaunchScreen.xib in Resources */,
+				5AE929A91AED4EE80044B39C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AE929AF1AED4EE80044B39C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5AE929981AED4EE80044B39C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AE929A41AED4EE80044B39C /* ViewController.swift in Sources */,
+				5AE929A21AED4EE80044B39C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AE929AD1AED4EE80044B39C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AE929B81AED4EE80044B39C /* Alston_ClarkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5AE929B31AED4EE80044B39C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5AE9299B1AED4EE80044B39C /* Alston Clark */;
+			targetProxy = 5AE929B21AED4EE80044B39C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5AE929A51AED4EE80044B39C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AE929A61AED4EE80044B39C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5AE929AA1AED4EE80044B39C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AE929AB1AED4EE80044B39C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5AE929B91AED4EE80044B39C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5AE929BA1AED4EE80044B39C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5AE929BC1AED4EE80044B39C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Alston Clark/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5AE929BD1AED4EE80044B39C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Alston Clark/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5AE929BF1AED4EE80044B39C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Alston ClarkTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Alston Clark.app/Alston Clark";
+			};
+			name = Debug;
+		};
+		5AE929C01AED4EE80044B39C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Alston ClarkTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Alston Clark.app/Alston Clark";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5AE929971AED4EE80044B39C /* Build configuration list for PBXProject "Alston Clark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AE929B91AED4EE80044B39C /* Debug */,
+				5AE929BA1AED4EE80044B39C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AE929BB1AED4EE80044B39C /* Build configuration list for PBXNativeTarget "Alston Clark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AE929BC1AED4EE80044B39C /* Debug */,
+				5AE929BD1AED4EE80044B39C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5AE929BE1AED4EE80044B39C /* Build configuration list for PBXNativeTarget "Alston ClarkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AE929BF1AED4EE80044B39C /* Debug */,
+				5AE929C01AED4EE80044B39C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5AE929941AED4EE80044B39C /* Project object */;
+}
