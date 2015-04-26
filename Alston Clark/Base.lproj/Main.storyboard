@@ -1,25 +1,237 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="ydd-e3-qUJ">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Greetings-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="myController" customModule="Alston_Clark" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <view key="view" contentMode="scaleAspectFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="_ACK1803.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="fcq-Eq-5ns">
+                                <rect key="frame" x="0.0" y="6" width="320" height="568"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Greetings" id="Oqp-9x-7mT">
+                        <barButtonItem key="rightBarButtonItem" title="Next" id="plo-9t-EbY">
+                            <connections>
+                                <segue destination="3ne-In-gMD" kind="push" id="N3l-Sl-YiP"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1252" y="387"/>
+        </scene>
+        <!--Robotics-->
+        <scene sceneID="xzm-RB-fku">
+            <objects>
+                <viewController id="3ne-In-gMD" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="NBs-al-44u"/>
+                        <viewControllerLayoutGuide type="bottom" id="3ZD-wG-zcm"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleAspectFill" id="p07-ea-Rzr">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="robot_teachback.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="b9q-Xe-wih">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Robotics" id="71i-Ut-cDj">
+                        <barButtonItem key="rightBarButtonItem" title="Next" id="KMx-r5-42d">
+                            <connections>
+                                <segue destination="Iy1-Zp-dSy" kind="push" id="ExT-jJ-p9l"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ki6-CM-2tf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1631" y="387"/>
+        </scene>
+        <!--Code-->
+        <scene sceneID="b8k-Oq-ZkW">
+            <objects>
+                <viewController id="Iy1-Zp-dSy" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="TDf-El-bNI"/>
+                        <viewControllerLayoutGuide type="bottom" id="sLN-ho-uBB"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1Nm-Kx-UWK">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="images.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="Eg9-0n-qsB">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="250"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="wEJ-va-om7">
+                                <rect key="frame" x="40" y="332" width="240" height="148"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">C++ -Intermediate                  Python -Intermediate               HTML   -Novice                                             Javascript -Novice                               Swift -Beginner</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Code" id="G2P-jA-nHw">
+                        <barButtonItem key="rightBarButtonItem" title="Next" id="kuR-RP-zrY">
+                            <connections>
+                                <segue destination="0LI-py-OOa" kind="push" id="Qx4-Ql-lpS"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pgg-TW-Yvn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2006" y="387"/>
+        </scene>
+        <!--Education-->
+        <scene sceneID="hxR-HG-VQn">
+            <objects>
+                <viewController id="0LI-py-OOa" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="d1a-9s-bNa"/>
+                        <viewControllerLayoutGuide type="bottom" id="dVL-jf-xg0"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="k6O-mw-2yY">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="0x2-IC-cNo">
+                                <rect key="frame" x="5" y="93" width="320" height="568"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">College: Howard University                                          GPA: 3.7                                                                                                       Year: Freshman                                                         Major: Computer Science           </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Education" id="V2W-Qg-X3l">
+                        <barButtonItem key="rightBarButtonItem" title="Next" id="V94-1Q-YDg">
+                            <connections>
+                                <segue destination="8bN-6c-8cb" kind="push" id="FAS-0s-VD1"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Do0-Rr-04s" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2425" y="387"/>
+        </scene>
+        <!--Startups-->
+        <scene sceneID="hcu-XN-Rpu">
+            <objects>
+                <viewController id="8bN-6c-8cb" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="V75-la-otE"/>
+                        <viewControllerLayoutGuide type="bottom" id="wQm-um-Uee"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="egh-6k-Fy2">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Snackadeez_quickpic.png" translatesAutoresizingMaskIntoConstraints="NO" id="Sx1-KH-nVZ">
+                                <rect key="frame" x="0.0" y="98" width="320" height="320"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Snack delivery made easy!                   Coming soon" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="eim-fJ-BaY">
+                                <rect key="frame" x="40" y="426" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Startups" id="7Du-Pz-rXr">
+                        <barButtonItem key="rightBarButtonItem" title="Next" id="n9x-bH-5OH">
+                            <connections>
+                                <segue destination="0HI-L9-zpi" kind="push" id="bL1-yE-loW"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="h7X-aw-TUt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2864" y="387"/>
+        </scene>
+        <!--Music-->
+        <scene sceneID="ema-hj-gP5">
+            <objects>
+                <viewController id="0HI-L9-zpi" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="pxp-0B-fam"/>
+                        <viewControllerLayoutGuide type="bottom" id="dse-ae-1CI"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="07Z-Bg-kEj">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="music_with_brother.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="uR5-Qj-uno">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Music" id="9O7-cE-UvS"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lMW-n7-jve" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3224" y="387"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="0au-Ms-0Oi">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ydd-e3-qUJ" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="c4C-yU-Xyl">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="326-2S-FC2"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="twC-u1-OcN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="741" y="387"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Snackadeez_quickpic.png" width="800" height="533"/>
+        <image name="_ACK1803.jpg" width="2003" height="3000"/>
+        <image name="images.jpeg" width="299" height="169"/>
+        <image name="music_with_brother.jpg" width="720" height="720"/>
+        <image name="robot_teachback.jpg" width="960" height="720"/>
+    </resources>
 </document>

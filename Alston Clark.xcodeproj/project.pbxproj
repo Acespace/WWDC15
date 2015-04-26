@@ -13,6 +13,12 @@
 		5AE929A91AED4EE80044B39C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AE929A81AED4EE80044B39C /* Images.xcassets */; };
 		5AE929AC1AED4EE80044B39C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5AE929AA1AED4EE80044B39C /* LaunchScreen.xib */; };
 		5AE929B81AED4EE80044B39C /* Alston_ClarkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE929B71AED4EE80044B39C /* Alston_ClarkTests.swift */; };
+		5AE929C21AED97B00044B39C /* myController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE929C11AED97B00044B39C /* myController.swift */; };
+		5AE929C41AED99010044B39C /* music_with_brother.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AE929C31AED99010044B39C /* music_with_brother.jpg */; };
+		5AE929C61AED99140044B39C /* Snackadeez_quickpic.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AE929C51AED99140044B39C /* Snackadeez_quickpic.png */; };
+		5AE929C81AED99240044B39C /* _ACK1803.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AE929C71AED99240044B39C /* _ACK1803.jpg */; };
+		5AE929CA1AED993B0044B39C /* robot_teachback.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AE929C91AED993B0044B39C /* robot_teachback.jpg */; };
+		5AE929CC1AED99520044B39C /* images.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5AE929CB1AED99520044B39C /* images.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,12 @@
 		5AE929B11AED4EE80044B39C /* Alston ClarkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Alston ClarkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AE929B61AED4EE80044B39C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5AE929B71AED4EE80044B39C /* Alston_ClarkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alston_ClarkTests.swift; sourceTree = "<group>"; };
+		5AE929C11AED97B00044B39C /* myController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myController.swift; sourceTree = "<group>"; };
+		5AE929C31AED99010044B39C /* music_with_brother.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = music_with_brother.jpg; path = ../../Documents/music_with_brother.jpg; sourceTree = "<group>"; };
+		5AE929C51AED99140044B39C /* Snackadeez_quickpic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Snackadeez_quickpic.png; path = ../../Pictures/Snackadeez_quickpic.png; sourceTree = "<group>"; };
+		5AE929C71AED99240044B39C /* _ACK1803.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = _ACK1803.jpg; path = ../_ACK1803.jpg; sourceTree = "<group>"; };
+		5AE929C91AED993B0044B39C /* robot_teachback.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = robot_teachback.jpg; path = ../../Documents/robot_teachback.jpg; sourceTree = "<group>"; };
+		5AE929CB1AED99520044B39C /* images.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = images.jpeg; path = ../../Pictures/images.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +74,11 @@
 				5AE9299E1AED4EE80044B39C /* Alston Clark */,
 				5AE929B41AED4EE80044B39C /* Alston ClarkTests */,
 				5AE9299D1AED4EE80044B39C /* Products */,
+				5AE929C31AED99010044B39C /* music_with_brother.jpg */,
+				5AE929C51AED99140044B39C /* Snackadeez_quickpic.png */,
+				5AE929C71AED99240044B39C /* _ACK1803.jpg */,
+				5AE929C91AED993B0044B39C /* robot_teachback.jpg */,
+				5AE929CB1AED99520044B39C /* images.jpeg */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,6 +96,7 @@
 			children = (
 				5AE929A11AED4EE80044B39C /* AppDelegate.swift */,
 				5AE929A31AED4EE80044B39C /* ViewController.swift */,
+				5AE929C11AED97B00044B39C /* myController.swift */,
 				5AE929A51AED4EE80044B39C /* Main.storyboard */,
 				5AE929A81AED4EE80044B39C /* Images.xcassets */,
 				5AE929AA1AED4EE80044B39C /* LaunchScreen.xib */,
@@ -193,8 +211,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				5AE929A71AED4EE80044B39C /* Main.storyboard in Resources */,
+				5AE929C61AED99140044B39C /* Snackadeez_quickpic.png in Resources */,
 				5AE929AC1AED4EE80044B39C /* LaunchScreen.xib in Resources */,
+				5AE929C81AED99240044B39C /* _ACK1803.jpg in Resources */,
+				5AE929C41AED99010044B39C /* music_with_brother.jpg in Resources */,
+				5AE929CC1AED99520044B39C /* images.jpeg in Resources */,
 				5AE929A91AED4EE80044B39C /* Images.xcassets in Resources */,
+				5AE929CA1AED993B0044B39C /* robot_teachback.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,6 +235,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AE929C21AED97B00044B39C /* myController.swift in Sources */,
 				5AE929A41AED4EE80044B39C /* ViewController.swift in Sources */,
 				5AE929A21AED4EE80044B39C /* AppDelegate.swift in Sources */,
 			);
